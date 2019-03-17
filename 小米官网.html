@@ -1,0 +1,473 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>模仿小米官网</title>
+		<style>
+		    a {
+		    	text-decoration: none;
+		    }
+			.topest {
+				height: 30px;
+				background-color: black;
+				width: 100%;
+				padding:0 60px 0 60px ;
+			}
+			.topest a:hover{
+				color: white;
+			}
+			.topest a {
+				color: gray;
+				margin: 3px;
+			}
+			.topest div {
+				dispaly: inline;
+			}
+			.topest ul {
+				text-decoration: none;
+				margin-top: 5px;
+			}
+			.topest .right {
+				text-align: right;
+			}
+			li {
+				display: inline-block;
+			}
+			span {
+				color: gray;
+			}
+			.topper {
+				height: 70px;
+				width: 100%;
+				padding:0 60px 0 60px;
+			}
+			.topper a:hover {
+				color: red;
+			}
+			.topper .right {
+				text-align: right;
+			}
+			.topper .left ul{
+				vertical-align: center;
+			}
+			.container {
+				padding: 0 60px 0 60px;
+			}
+			.dropdown-content {
+				display: none;
+				position: absolute;
+				background-color: white;
+				min-width: 300px;
+				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+				padding: 12px 16px;
+				float:right;
+				width: 800px ;
+				height: 400px;
+			}
+			.dropdown:hover .dropdown-content {
+				display: block;
+			}
+			.dropdown {
+				background-color: black;
+				width: 100px;
+				height: 40px;
+				margin: 0;
+			}
+			.dropdown span {
+				color: white;
+			}
+			.dropdown:hover {
+				background-color: red;
+			}
+			.container>div {
+				dispaly: inline-block;
+			}
+			.container img {
+				width: 800px;
+				height: 400px;
+			}
+			.container-one,.container-two,.footer,.footest {
+				padding: 0 60px 0 60px;
+			}
+			.one,.two,.four,.three {
+				width: 50px;
+				height: 60px;
+				display: inline-block;
+				margin: 10px 10px;
+			}
+			.container-two .right {
+				position: relative;
+				width: 100%;
+				height: 600px;
+			}
+			.container-two .left {
+				height: 500px;
+				width: 50px;
+				margin-left: -100%;
+			}
+			.container-two {
+				position: relative;
+				height: 600px;
+				width: 100%;
+			}
+			.container-two .right div {
+				float: left;
+				width: 50px;
+				height: 200px;
+				background-color: white;
+				margin: 5px;
+				padding: 10px;
+			}
+			.container-two .right img {
+				width: 50px;
+				height: 150px;
+				border-width: 2px;
+				border-color: black;
+			}
+			.footer,.footest {
+				clear: both;
+			}
+			.down {
+				width: 300px;
+				height: 50px;
+			}
+			.erji {
+				float: none;
+			}
+			.erji-ul {
+				display: none;
+			}
+			ul li:hover .erji-ul {
+				display: block;
+				width: 800px;
+				height: 400px;
+				background-color: white;
+			}
+			.list li{
+				display: block;
+				width: 100px;
+				height: 30px;
+				background-color: black;
+				color: white;
+			}
+			.list li:hover {
+				background-color: orange;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="topest">       <!--这是上面黑色的部分-->
+			<ul>    
+				<div class="left"> 			<!--这是偏左的导航栏-->
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">小米商城</a></li><span>|</span>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">MIUI</a></li><span>|</span>				
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">loT</a></li><span>|</span>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">云服务</a></li><span>|</span>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">金融</a></li><span>|</span>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">有品</a></li><span>|</span>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">小爱开放平台</a></li><span>|</span>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">政企服务</a></li><span>|</span>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">资质证照</a></li><span>|</span>						
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">协议规则</a></li><span>|</span>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">下载app</a></li><span>|</span>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">Select Region</a></li>
+				</div>
+				<div class="right">       <!--这是偏右的导航栏-->
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">登陆</a></li>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">注册</a></li>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">消息通知</a></li>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">购物车</a></li>
+				</div>
+			</ul>
+		</div>
+		<div class="topper">	<!--这是上面部分白色的部分-->	
+			<div class="left">       <!--这是中间的导航栏-->
+				<ul>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">小米手机</a></li>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">红米</a></li>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">电视</a></li>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">笔记本</a></li>	
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">家电</a></li>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">新品</a></li>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">路由器</a></li>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">智能硬件</a></li>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">服务</a></li>
+					<li><a href="https://hao.lenovo.com.cn/?c=lenovo_broswer">社区</a></li>
+				</ul>
+			</div>
+			<div class="right">   <!--这是右边的搜索栏部分-->
+				<input type="text" placeholder="小米8 小米MIX 2S">
+				<input type="button">
+			</div>
+		</div>
+		<div class="container">   <!--这是内容部分，用到下拉单的部分-->
+			<div class="list">       <!--这是下拉单部分-->
+				<!--<div class="dropdown">
+					<span>手机 电话卡</span>
+					<div class="dropdown-content">
+						<p>小米9</p>
+						<p>小米8 se</p>
+					</div>
+				</div>
+				<div class="dropdown">
+					<span>手机 电话卡</span>
+					<div class="dropdown-content">
+						<p>小米9</p>
+						<p>小米8 se</p>
+					</div>
+				</div>
+				<div class="dropdown">
+					<span>手机 电话卡</span>
+					<div class="dropdown-content">
+						<p>小米9</p>
+						<p>小米8 se</p>
+					</div>
+				</div>
+				<div class="dropdown">
+					<span>手机 电话卡</span>
+					<div class="dropdown-content">
+						<p>小米9</p>
+						<p>小米8 se</p>
+					</div>
+				</div>
+				<div class="dropdown">
+					<span>手机 电话卡</span>
+					<div class="dropdown-content">
+						<p>小米9</p>
+						<p>小米8 se</p>
+					</div>
+				</div>
+				<div class="dropdown">
+					<span>手机 电话卡</span>
+					<div class="dropdown-content">
+						<p>小米9</p>
+						<p>小米8 se</p>
+					</div>
+				</div>
+				<div class="dropdown">
+					<span>手机 电话卡</span>
+					<div class="dropdown-content">
+						<p>小米9</p>
+						<p>小米8 se</p>
+					</div>
+				</div>
+				<div class="dropdown">
+					<span>手机 电话卡</span>
+					<div class="dropdown-content">
+						<p>小米9</p>
+						<p>小米8 se</p>
+					</div>
+				</div>
+				<div class="dropdown">
+					<span>手机 电话卡</span>
+					<div class="dropdown-content">
+						<p>小米9</p>
+						<p>小米8 se</p>
+					</div>
+				</div>
+				<div class="dropdown">
+					<span>手机 电话卡</span>
+					<div class="dropdown-content">
+						<p>小米9</p>
+						<p>小米8 se</p>
+					</div>
+				</div>-->
+				<ul>
+					<li>手机 电话卡
+						<ul class="erji-ul">
+							<li class="erji">手机</li>
+							<li class="erji">电话卡</li>
+						</ul>
+					</li>
+					<li>手机 电话卡
+						<ul class="erji-ul">
+							<li class="erji">手机</li>
+							<li class="erji">电话卡</li>
+						</ul>
+					</li>
+					<li>手机 电话卡
+						<ul class="erji-ul">
+							<li class="erji">手机</li>
+							<li class="erji">电话卡</li>
+						</ul>
+					</li>
+					<li>手机 电话卡
+						<ul class="erji-ul">
+							<li class="erji">手机</li>
+							<li class="erji">电话卡</li>
+						</ul>
+					</li>
+					<li>手机 电话卡
+						<ul class="erji-ul">
+							<li class="erji">手机</li>
+							<li class="erji">电话卡</li>
+						</ul>
+					</li>
+					<li>手机 电话卡
+						<ul class="erji-ul">
+							<li>手机</li>
+							<li>电话卡</li>
+						</ul>
+					</li>
+					<li>手机 电话卡
+						<ul class="erji-ul">
+							<li class="erji">手机</li>
+							<li class="erji">电话卡</li>
+						</ul>
+					</li>
+					<li>手机 电话卡
+						<ul class="erji-ul">
+							<li class="erji">手机</li>
+							<li class="erji">电话卡</li>
+						</ul>
+					</li>
+					<li>手机 电话卡
+						<ul class="erji-ul">
+							<li class="erji">手机</li>
+							<li class="erji">电话卡</li>
+						</ul>
+					</li>
+					<li>手机 电话卡
+						<ul class="erji-ul">
+							<li class="erji">手机</li>
+							<li class="erji">电话卡</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="right">   <!--这是右边的那个大图片-->
+				<img src="https://i1.mifile.cn/a4/xmad_15520367355876_JqLgU.jpg">
+			</div>
+		</div>
+		<div class="container-one">   <!--这是下拉单下面的部分，应该用到了一个小表格-->
+			<div class="one">           <!--这里应该是一个表格，先以图片代替-->
+				<img src="https://i1.mifile.cna4/xmad_1550713536261_EJOpq.jpg">
+			</div>
+			<div class="two">  
+				<img src="https://i1.mifile.cn/a4/xmad_1550713536261_EJOpq.jpg">
+			</div>
+			<div class="three">
+				<img src="https://i1.mifile.cn/a4/xmad_15510775494887_EWGcg.jpg">
+			</div>
+			<div class="four">
+				<img src="https://i1.mifile.cn/a4/xmad_15410599445473_Ivjsb.jpg">
+			</div>
+			<div class="down">            <!--这是最下面的图片，那张长图-->   
+				<img src="https://i1.mifile.cn/a4/xmad_15524455216172_cptXP.jpg">
+			</div>
+		</div>
+		<div class="container-two">        <!--这是手机部分的内容，其余的与这个格式一样，完成这个，其他的复制黏贴即可-->
+			<h2>手机</h2>
+			<div class="left">          <!--这是最左边的那个较高的图片-->
+				<a href="https://www.mi.com/mi9tr/"><img src="https://i1.mifile.cn/a4/xmad_15523945788008_wGKWT.jpg"></a>
+			</div>
+			<div class="right">              <!--这是右边的8个小图片-->
+				<div>
+					<a href="https://www.mi.com/mi9tr/"><img src="https://i1.mifile.cn/a1/pms_1550642182.7527088!220x220.jpg"></a>
+				</div>
+				<div>
+					<a href="https://www.mi.com/mi9tr/"><img src="https://i1.mifile.cn/a1/pms_1550646283.24414368!220x220.jpg"></a>
+				</div>
+				<div>
+					<a href="https://www.mi.com/mi9tr/"><img src="https://i1.mifile.cn/a1/pms_1547020852.30751177!220x220.jpg"></a>
+				</div>
+				<div>
+					<a href="https://www.mi.com/mi9tr/"><img src="https://i1.mifile.cn/a1/pms_1545457719.47232999!220x220.png"></a>
+				</div>
+				<div>
+					<a href="https://www.mi.com/mi9tr/"><img src="https://i1.mifile.cn/a1/pms_1537324004.08544830!220x220.jpg"></a>
+				</div>
+				<div>
+					<a href="https://www.mi.com/mi9tr/"><img src="https://i1.mifile.cn/a1/pms_1527685277.65255600!220x220.jpg"></a>
+				</div>
+				<div>
+					<a href="https://www.mi.com/mi9tr/"><img src="https://i1.mifile.cn/a1/pms_1524621350.77238418!220x220.jpg"></a>
+				</div>
+				<div>
+					<a href="https://www.mi.com/mi9tr/"><img src="https://i1.mifile.cn/a1/pms_1528719461.20891365!220x220.jpg"></a>
+				</div>
+			</div>
+			<div class="down">    <!--这是底下的那个长图-->
+				<a href="https://www.mi.com/mi9tr/"><img src="https://i1.mifile.cn/a4/xmad_15524644671045_OcVNf.jpg"></a>
+			</div>
+		</div>
+		<div class="footer">       <!--这是底部部分的内容-->
+			<ul>
+				<li><a href="https://www.mi.com/mi9tr/">预约维修服务</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">7天无理由退货</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">15天免费换货</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">满150包邮</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">520余家售后网点</a></li>
+			</ul>
+			<hr/>
+			<table> 
+				<tr>
+					<th>帮助中心</th>
+					<th>服务支持</th>
+					<th>线下门店</th>
+					<th>关于小米</th>
+					<th>关注我们</th>
+					<th>特色服务</th>
+				</tr>
+				<tr>
+					<td><a href="https://www.mi.com/mi9tr/">账户管理</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">售后政策</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">小米之家</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">了解小米</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">新浪微博</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">F码通道</a></td>
+				</tr>
+				<tr>
+					<td><a href="https://www.mi.com/mi9tr/">购物指南</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">自助服务</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">服务网点</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">加入小米</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">官方微信</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">礼物码</a></td>
+				</tr>
+				<tr>
+					<td><a href="https://www.mi.com/mi9tr/">订单操作</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">相关下载</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">授权体验店</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">投资者关系</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">联系我们</a></td>
+					<td><a href="https://www.mi.com/mi9tr/">防伪码查询</a></td>
+				</tr>
+			</table>
+			<span>|</span>
+			<div>
+				<p>400-100-5678</p>
+				<p>周一至周日8:00-18:00</p>
+				<p>（仅收市话费）</p>
+				<button>联系客服</button>
+			</div>
+		</div>
+		<div class="footest">     <!--这是最下面的作者地址之类标记的地方-->
+			<ul>
+				<li><a href="https://www.mi.com/mi9tr/">小米商城</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">MIUI</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">米家</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">米聊</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">多看</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">游戏</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">路由器</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">米粉卡</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">政企服务</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">小米天猫店</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">隐私政策</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">商城用户协议</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">账号协议</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">问题反馈</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">廉政举报</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">诚信合规</a><span>|</span></li>
+				<li><a href="https://www.mi.com/mi9tr/">Select Region</a></li>
+			</ul>
+			<p>mi.com 京ICP政110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2017]1530-131号</p>
+			<img src="https://i1.mifile.cn/f/i/17/site/truste.png">
+			<img src="https://s01.mifile.cn/i/v-logo-2.png">
+			<img src="https://s01.mifile.cn/i/v-logo-1.png">
+			<img src="https://s01.mifile.cn/i/v-logo-3.png">
+			<img src="https://i8.mifile.cn/b2c-mimall-media/ba10428a4f9495ac310fd0b5e0cf8370.png">
+		</div>
+	</body>
+</html>

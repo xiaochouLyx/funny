@@ -1,0 +1,42 @@
+《HTML+CSS基础教程》
+《锋利jquery》
+HTML相关：
+《Web标准实战》 比较简单，适合入门
+《Web标准设计》
+《深入浅出HTML》
+CSS相关
+《CSS设计彻底研究》 视频教程很好，书本我并没有详细研究，不好说建议。
+《CSS网站布局实录》 CSS的书我看得比较少，这本算是看得比较全了，听说第二版不错。
+javascript相关：
+《悟透javascript》 这本书第一章是介绍原型和继承的，第三章也介绍了跨域的一个解决方法，还有就是作者对程序和人生的理解哲学很有深度。
+《高性能网站建设指南 》 这类书有两本不同版本，都是关于web性能优化的
+Flash/Flex，Silverlight、XML和服务器端语言（PHP、http://ASP.NET，JSP、Python）等语言，
+2九六，中间是5九一，最后面就是二九0，
+学习 HTML，CSS 应该先跟着书仔细、扎实的学一遍。然后就需要做大量的练习，做各种常规的、奇怪的、大量的布局练习来捆固、理解自己的知识。
+初级读物：
+《JavaScript高级程序设计》：一本非常完整的经典入门书籍，被誉为JavaScript圣经之一，详解的非常详细，最新版第三版已经发布了，建议购买。
+《JavaScript王者归来》百度的一个Web开发项目经理写的，作为初学者准备的入门级教程也不错。
+中级读物：
+《JavaScript权威指南》：另外一本JavaScript圣经，讲解的也非常详细，属于中级读物，建议购买。
+《JavaScript.The.Good.Parts》：Yahoo大牛，JavaScript精神领袖Douglas Crockford的大作，虽然才100多页，但是字字珠玑啊！强烈建议阅读。
+《高性能JavaScript》：《JavaScript高级程序设计》作者Nicholas C. Zakas的又一大作。
+《Eloquent JavaScript》：这本书才200多页，非常短小，通过几个非常经典的例子（艾米丽姨妈的猫、悲惨的隐士、模拟生态圈、推箱子游戏等等）来介绍JavaScript方方面面的知识和应用方法。
+高级读物：
+《JavaScript Patterns 》：书中介绍到了各种经典的模式，如构造函数、单例、工厂等等，值得学习。
+《Pro.JavaScript.Design.Patterns》：Apress出版社讲解JavaScript设计模式的书，非常不错。
+《Developing JavaScript Web Applications》：构建富应用的好书，针对MVC模式有较为深入的讲解，同时也对一些流程的库进行了讲解。
+《Developing Large Web Applications》：不仅有JavaScript方面的介绍，还有CSS、HTML方面的介绍，但是介绍的内容却都非常不错，真正考虑到了一个大型的Web程序下，如何进行JavaScript架构设计，值得一读。
+要做优秀的前端工程师，还需要继续努力：《高性能网站建设指南》、《Yahoo工程师的网站性能优化的建议》、“YSLOW”性能优化建议、《网站重构》、《Web开发敏捷之道》、“ jQuery 库”、“前端框架”、“HTML5”、“CSS3”。。。 这些都要深入研究！
+Codecademy 学习 Javascript，jQuery，用户体验真的很好
+　　模块2：web移动开发– html5、 css3、
+　　模块3：html 5 游戏— html5 、canvas；
+　　模块4：用js去做传统java 、.NET、 PHP才能做的数据库操作，服务器编程。— ajax 、node.js；
+　　模块5：大型BS、云计算、项目开发（比如淘宝，京东）–面向对象、设计模式、大型项目分层架构思想（比如MVC，MVVM)、js框架、web前端架构、js组件；
+精通CSS
+图解CSS3：核心技术与案例实践
+JavaScript DOM编程艺术 （第2版）	JavaScript高级程序设计（建议：第三版）	JavaScript语言精粹		你不知道的JavaScript	JavaScript设计模式.    
+　Head First HTML与CSS（第2版），	《JavaScript权威指南》	《CSS权威指南（第三版）》	《图解CSS3：核心技术与案例实践》	CSS禅意花园 《JAVASCRIPT语言精髓与编程实践》 
+《精通JavaScript》 第三部分	精通CSS
+ 慕课网
+
+

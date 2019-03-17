@@ -1,0 +1,86 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+form{
+	padding-left:50px;
+}
+span{
+	display:block-inline;
+	height :100px;
+}
+</style>
+</head>
+<body>
+<h1>
+统一建模语言理论测试
+</h1>
+<form style="padding-left:0px">
+考试科目：统一建模语言<br/>
+时间：100分钟<br/>
+得分：<br/>
+班级（必填）：<input type="text" name="banji" placeholder="班级"><br/>
+学号（必填）：<input type="text" name="xuehao" placeholder="学号"><br/>
+姓名（必填）：<input type="text" name="xingming" placeholder="姓名"><br/>
+</form>
+<h3>
+一.填空题（每空5分，共20分）
+</h3>
+<p style="padding-left:50px">
+1.UML的中文全称是：<br/>
+<input type="text" name="填空" ><br/>
+2.对象最突出的特征是：<br/> 
+<input type="text" name="填空" > <input type="text" name="填空" > <input type="text" name="填空" >
+</p>
+<h3>
+二.选择题（每题10分，共20分）
+</h3>
+<form>
+1.UML与软件工程的关系是：<br/>
+ <input type="radio" name="UML">（A）UML就是软件工程<br/>
+ <input type="radio" name="UML">（B）UML参与到软件工程中软件开发过程的几个阶段<br/>
+ <input type="radio" name="UML">（C）UML与软件工程无关<br/>
+ <input type="radio" name="UML">（D）UML是软件工程的一部分<br/>
+2.Java语言支持：<br/>
+ <input type="radio" name="Java">（A）单继承<br/>
+ <input type="radio" name="Java">（B）多继承<br/>
+ <input type="radio" name="Java">（C）单继承和多继承都支持<br/>
+ <input type="radio" name="Java">（D）单继承和多继承都不支持<br/>
+</form>
+<h3>
+三.多项选择题（每题10分，共20分）
+</h3>
+<form>
+1.用例的粒度分为以下哪三种：<br/>
+ <input type="checkbox" name="yongli">（A）概述级<br/>
+ <input type="checkbox" name="yongli">（B）需求级<br/>
+ <input type="checkbox" name="yongli">（C）用户目标级<br/>
+ <input type="checkbox" name="yongli">（D）子功能级<br/>
+2.类图由以下哪三部分组成：<br/>
+ <input type="checkbox" name="leitu">（A）名称（Name）<br/>
+ <input type="checkbox" name="leitu">（B）属性（Actribute）<br/>
+ <input type="checkbox" name="leitu">（C）操作（Operation）<br/>
+ <input type="checkbox" name="leitu">（D）方法（Function）<br/>
+</form>
+<h3>
+四.判断题（每题10分，共20分）
+</h3>
+<form>
+1.用例图只是用于和客户交流与沟通的，用于确定需求。<input type="radio" name="litu"><input type="radio" name="litu"><br/>
+2.在状态图中，终止状态在一个状态图中允许有任意多个。<input type="radio" name="zhuangtai"><input type="radio" name="zhuangtai">
+</form>
+<h3>
+五.简答题（每题20分，共20分）
+</h3>
+<form>
+<span style="padding-bottom:0px;float:left">
+ 1.简述什么是模型以及模型的表现形式？
+ </span>
+<span> 
+<input type="text" name="jianda" style="width:150px;line-height:100px;float:left"><br/>
+</span>
+</form><br/><br/><br/><br/>
+<input type="button" name="button" value="计算分数" >
+<hr/>
+</body>
+</html>
